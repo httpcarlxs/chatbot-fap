@@ -19,7 +19,7 @@ messages = [
 ]
 
 response = client.chat.completions.create(
-    model="sabia-3", 
+    model="sabia-2-small", 
     messages=messages,
     temperature=0.7,
     max_tokens=512,
